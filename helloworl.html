@@ -23,22 +23,34 @@
 
       <div class="mainbox">
         <img src="rabbits.jpg", height = "300px", >
-    <p id="para1">
-      Hello world, again.
-    </p>
-    <p id="para2">
-      It's been 800 years. Much has changed, yet I remain the same. When will it end,
-      the endless toil that is life. 8 centuries I have searched for you, yet not a trace remains...
-      of who you once were.
-
-    </p>
-      <p>
-        website paragraph text. paragraph text.  paragraph text
-         paragraph text  paragraph text  paragraph text  paragraph text
+      <p id="para1">
+        Hello world, again.
       </p>
+      <p id="para2">
+        It's been 800 years. Much has changed, yet I remain the same. When will it end,
+        the endless toil that is life. 8 centuries I have searched for you, yet not a trace remains...
+        of who you once were.
+
+      </p>
+        <p>
+          website paragraph text. paragraph text.  paragraph text
+           paragraph text  paragraph text  paragraph text  paragraph text
+        </p>
     </div>
+    <input id="nameOfPerson" type = "text" placeholder="Type something here">
+    <br>
+    <button onclick=nameDisplay()> Go! </button>
+    <br>
+    <div id="name"> </div>
     <marquee><img src="https://images.ctfassets.net/idmfh0ehr6d7/2sPiMlOQdqsum6uKC4iUQU/07526d53197d3016aa345fa0a07c52ef/full-logo-for-dark-slash-with-blue-bg-SMALL.png" alt="hq img"/></marquee>
   </body>
+  <script>
+    var space = document.getElementById("name");
+    var nameofPerson = document.getElementById("nameOfPerson");
+    function nameDisplay(){
+      space.innerHTML = document.write(nameofPerson.value);
+    }
+  </script>
 
 
 </html>
