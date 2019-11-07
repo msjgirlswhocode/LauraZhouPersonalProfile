@@ -18,6 +18,7 @@ h1 {
 }
 
 body{
+  position: absolute;
   color:purple;
   background-image: url("lanterns.jpg");
   background-position: center;
@@ -51,14 +52,12 @@ body{
   opacity:1;
 }
 .mainbox{
-  align-self: flex-end;
-  position:absolute;
-  width:100%;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 30px;
-  justify-content: center;
-  background-blend-mode: lighten;
-
+  float: center;
+  align-self: center;
+  flex-direction: row;
+  width:100%;
+  padding: 10px;
 }
 .imagecontainer{
   height:100%;
