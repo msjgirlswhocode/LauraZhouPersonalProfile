@@ -62,6 +62,9 @@ body{
 .imagecontainer{
   height:100%;
   position:absolute;
+  flex-direction: row-reverse;
+  align-self: flex-start;
+  align-items: flex-start;
   opacity: 0.7;
 
 
